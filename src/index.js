@@ -7,7 +7,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="mainContainer">
+      <h1>Weather App</h1>
+      <App className="searchForm"/>
+    </div>
   </React.StrictMode>
 );
 

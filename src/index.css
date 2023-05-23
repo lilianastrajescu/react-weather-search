@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.mainContainer{
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1{
+  font-size: 45px;
+}
+.searchInput {
+  height: 25px;
+  width: 250px;
+  border: solid 1px;
+  border-radius: 0.5em;
+  margin-right: 10px;
+}
+
+.searchButton{
+  height: 25px;
+  width: 65px;
+border: solid 1px;
+  border-radius: 1em;
+  margin-right: 10px;
+  background-color: rgb(0, 0, 70);
+  color: white;
+
+}
+
+ul{
+list-style: none;
+}
