@@ -25,7 +25,7 @@ export default function App() {
         <input
           className="searchInput"
           type="text"
-          placeholder="City"
+          placeholder="Enter a City"
           value={city}
           onChange={(e) => setCity(e.target.value)}
         />
