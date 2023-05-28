@@ -38,6 +38,25 @@ border: solid 1px;
 
 }
 
+.searchButton:hover{
+  background-color: white;
+  color: rgb(1, 3, 57);
+  font-weight: bold;
+}
+
 ul{
 list-style: none;
+}
+.gitLink a{
+  text-decoration: none;
+font-weight: bold;
+color: black;
+font-style: italic;
+}
+
+.gitLink a:hover{
+ color: rgb(127, 70, 226);
+}
+.gitLink{
+  margin-top: 45px;
 }

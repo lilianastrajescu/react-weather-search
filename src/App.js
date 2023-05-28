@@ -46,6 +46,11 @@ export default function App() {
           </div>
         )}
       </div>
+      <div className="gitLink">
+        <a href="https://github.com/lilianastrajescu/Search-form-react-exercise">
+          GIT Project Link
+        </a>
+      </div>
     </div>
   );
 }
